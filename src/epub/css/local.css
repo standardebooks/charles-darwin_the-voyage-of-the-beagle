@@ -2,6 +2,11 @@
 @namespace epub "http://www.idpf.org/2007/ops";
 
 
+footer{
+	text-align: right;
+	margin-top: 0.5em;
+}
+
 /* Centered dedications */
 section[epub|type~="dedication"]{
 	text-align: center;
