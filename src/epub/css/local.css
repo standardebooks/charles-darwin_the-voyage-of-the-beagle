@@ -100,3 +100,8 @@ figure{
 	text-align: center;
 }
 /* end figures */
+
+span[epub:type="se:diary.dateline"] {
+	font-style: italic;
+	color: red;
+}
