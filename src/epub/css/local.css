@@ -1,10 +1,9 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
-
 footer{
-	text-align: right;
 	margin-top: 0.5em;
+	text-align: right;
 }
 
 /* Centered dedications */
@@ -101,7 +100,6 @@ figure{
 }
 /* end figures */
 
-span[epub:type="se:diary.dateline"] {
+span[epub:type="se:diary.dateline"]{
 	font-style: italic;
-	color: red;
 }
