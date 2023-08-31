@@ -100,6 +100,7 @@ figure{
 }
 /* end figures */
 
-span[epub:type="se:diary.dateline"]{
+/* this is to italicise "diary" entries */
+span > time{
 	font-style: italic;
 }
