@@ -100,6 +100,38 @@ figure{
 }
 /* end figures */
 
+#chapter-11 table{
+	margin-bottom: 0.5em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0.5em;
+}
+
+#chapter-11 table td{
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+#chapter-11 table td:not(:first-child){
+	text-align: center;
+}
+
+table + p{
+	text-indent: 0;
+}
+
+div header p{
+	font-style: italic;
+	margin-bottom: 0.5em;
+	margin-top: 0.5em;
+	text-align: center;
+	text-indent: 0;
+}
+
+div header + p{
+	text-indent: 0;
+}
+
 /* this is to italicise "diary" entries */
 span > time{
 	font-style: italic;
