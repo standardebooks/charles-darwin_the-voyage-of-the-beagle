@@ -106,12 +106,15 @@ figure{
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 0.5em;
+	border-collapse: collapse;
 }
 
+#chapter-11 table th,
+#chapter-17 table th,
 #chapter-11 table td,
 #chapter-17 table td{
-	padding-left: 1em;
-	padding-right: 1em;
+	padding: 0.5em;
+	border: 1px solid black;
 }
 
 #chapter-11 table td:not(:first-child),
