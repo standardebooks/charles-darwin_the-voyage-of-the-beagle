@@ -9,6 +9,7 @@ footer{
 /* Centered dedications */
 section[epub|type~="dedication"]{
 	text-align: center;
+	font-variant: small-caps;
 }
 
 section[epub|type~="dedication"] > *{
