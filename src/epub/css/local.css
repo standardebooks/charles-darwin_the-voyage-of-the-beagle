@@ -8,9 +8,9 @@ footer{
 
 /* Centered dedications */
 section[epub|type~="dedication"]{
+	font-variant: small-caps;
 	text-align: center;
 	text-indent: 0;
-	font-variant: small-caps;
 }
 
 section[epub|type~="dedication"] > *{
@@ -104,20 +104,20 @@ figure{
 
 #chapter-11 table,
 #chapter-17 table{
+	border-collapse: collapse;
+	font-variant-numeric: tabular-nums;
 	margin-bottom: 0.5em;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 0.5em;
-	border-collapse: collapse;
-	font-variant-numeric: tabular-nums;
 }
 
 #chapter-11 table th,
 #chapter-17 table th,
 #chapter-11 table td,
 #chapter-17 table td{
-	padding: 0.5em;
 	border: 1px solid black;
+	padding: 0.5em;
 }
 
 #chapter-11 table td:not(:first-child),
