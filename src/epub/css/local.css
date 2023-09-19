@@ -46,14 +46,13 @@ section[epub|type~="dedication"] > *{
 	text-indent: 0;
 }
 
-[epub|type~="bridgehead"] i{
-	font-style: normal;
-}
 /* end bridgeheads */
 
 /* figures */
 figure{
 	break-inside: avoid;
+	margin: 1em 40px;
+	text-align: center;
 }
 
 figure img{
@@ -70,10 +69,6 @@ figcaption{
 	font-size: .75em;
 	font-style: italic;
 	margin: 1em;
-}
-
-figcaption p + p{
-	text-indent: 0;
 }
 
 figure.full-page{
@@ -96,10 +91,6 @@ figure.full-page{
 	}
 }
 
-figure{
-	margin: 1em 40px;
-	text-align: center;
-}
 /* end figures */
 
 #chapter-11 table,
@@ -144,4 +135,25 @@ div header + p{
 /* this is to italicise "diary" entries */
 span > time{
 	font-style: italic;
+}
+
+/* verse */
+[epub|type~="z3998:verse"] p{
+	text-align: initial;
+	text-indent: 0;
+}
+
+[epub|type~="z3998:verse"] p > span{
+	display: block;
+	padding-left: 1em;
+	text-indent: -1em;
+}
+
+[epub|type~="z3998:verse"] p > span + br{
+	display: none;
+}
+/* end verse */
+
+abbr[epub|type~="se:era"]{
+	font-variant: all-small-caps;
 }
