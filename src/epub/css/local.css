@@ -62,7 +62,7 @@ figure img{
 }
 
 figure.small-image img{
-	max-width: 75%;
+	max-width: 50%;
 }
 
 figcaption{
@@ -93,8 +93,8 @@ figure.full-page{
 
 /* end figures */
 
-#chapter-11 table,
-#chapter-17 table{
+/* tables */
+table{
 	border-collapse: collapse;
 	font-variant-numeric: tabular-nums;
 	margin-bottom: 0.5em;
@@ -103,22 +103,27 @@ figure.full-page{
 	margin-top: 0.5em;
 }
 
-#chapter-11 table th,
-#chapter-17 table th,
-#chapter-11 table td,
-#chapter-17 table td{
+table th,
+table td{
 	border: 1px solid black;
 	padding: 0.5em;
 }
 
-#chapter-11 table td:not(:first-child),
-#chapter-17 table td:not(:first-child){
+table td{
 	text-align: center;
+}
+
+table td:first-child{
+	text-align: left;
 }
 
 table + p{
 	text-indent: 0;
 }
+
+/* end tables */
+
+/* these are for 'pseudo-headings' we don't want in ToC */
 
 div header p{
 	font-style: italic;
@@ -132,7 +137,7 @@ div header + p{
 	text-indent: 0;
 }
 
-/* this is to italicise "diary" entries */
+/* this is to italicise "diary" dates to match scans */
 span > time{
 	font-style: italic;
 }
