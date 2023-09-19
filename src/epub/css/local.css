@@ -1,5 +1,10 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
+@namespace xml "http://www.w3.org/XML/1998/namespace";
+
+blockquote[xml|lang]{
+	font-style: italic;
+}
 
 footer{
 	margin-top: 1em;
@@ -51,8 +56,6 @@ section[epub|type~="dedication"] > *{
 /* figures */
 figure{
 	break-inside: avoid;
-	margin: 1em 40px;
-	text-align: center;
 }
 
 figure img{
@@ -61,14 +64,14 @@ figure img{
 	max-width: 100%;
 }
 
-figure.small-image img{
-	max-width: 50%;
-}
-
 figcaption{
 	font-size: .75em;
 	font-style: italic;
 	margin: 1em;
+}
+
+figcaption p + p{
+	text-indent: 0;
 }
 
 figure.full-page{
