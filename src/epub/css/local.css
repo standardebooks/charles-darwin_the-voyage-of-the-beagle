@@ -50,7 +50,6 @@ section[epub|type~="dedication"] > *{
 	text-align: justify;
 	text-indent: 0;
 }
-
 /* end bridgeheads */
 
 /* figures */
@@ -95,7 +94,6 @@ figure.full-page{
 		object-fit: contain;
 	}
 }
-
 /* end figures */
 
 /* tables */
@@ -125,11 +123,9 @@ table td:first-child{
 table + p{
 	text-indent: 0;
 }
-
 /* end tables */
 
 /* these are for 'pseudo-headings' we don't want in ToC */
-
 div header p{
 	font-style: italic;
 	margin-bottom: 0.5em;
