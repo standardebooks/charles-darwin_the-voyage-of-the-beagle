@@ -71,10 +71,6 @@ figcaption{
 	margin: 1em;
 }
 
-figcaption p + p{
-	text-indent: 0;
-}
-
 figure.full-page{
 	break-after: page;
 	break-before: page;
@@ -117,7 +113,7 @@ table td{
 }
 
 table td:first-child{
-	text-align: left;
+	text-align: initial;
 }
 
 table + p{
