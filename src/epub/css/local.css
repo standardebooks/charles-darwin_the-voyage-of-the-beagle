@@ -96,10 +96,7 @@ figure.full-page{
 table{
 	border-collapse: collapse;
 	font-variant-numeric: tabular-nums;
-	margin-bottom: 0.5em;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 0.5em;
+	margin: 1em auto;
 }
 
 table th,
@@ -124,14 +121,8 @@ table + p{
 /* these are for 'pseudo-headings' we don't want in ToC */
 div header p{
 	font-style: italic;
-	margin-bottom: 0.5em;
-	margin-top: 0.5em;
+	margin: 1em auto;
 	text-align: center;
-	text-indent: 0;
-}
-
-div header + p{
-	text-indent: 0;
 }
 
 /* this is to italicise "diary" dates to match scans */
