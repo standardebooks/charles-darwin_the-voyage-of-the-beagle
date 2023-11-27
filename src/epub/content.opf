@@ -57,7 +57,7 @@
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/944</dc:source>
 		<dc:source>https://archive.org/details/voyageofbeagle0029char</dc:source>
-		<meta property="se:word-count">198826</meta>
+		<meta property="se:word-count">198824</meta>
 		<meta property="se:reading-ease.flesch">53.55</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Voyage_of_the_Beagle</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/charles-darwin_the-voyage-of-the-beagle</meta>
