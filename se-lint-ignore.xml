@@ -2,6 +2,7 @@
 <se-lint-ignore>
 	<file path="endnotes.xhtml">
 		<ignore code="t-064">
+			<line>496</line>
 			<reason>Lint complains about titlecasing in a title referencing Van Diemen’s Land, assuming that this is foreign language and that “Van” should be “van”. It’s wrong.</reason>
 		</ignore>
 	</file>
