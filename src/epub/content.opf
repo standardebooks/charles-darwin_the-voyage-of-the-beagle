@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/charles-darwin/the-voyage-of-the-beagle</dc:identifier>
 		<dc:date>2023-09-23T15:21:00Z</dc:date>
@@ -48,13 +48,13 @@
 		<meta property="authority" refines="#subject-5">LCSH</meta>
 		<meta property="term" refines="#subject-5">Unknown</meta>
 		<meta property="schema:genre">Nonfiction</meta>
-		<dc:description id="description">Darwin’s personal account of his 1831 voyage around the world investigating the geology, botany, and zoology of various lands.</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description">
+		<dc:abstract>Darwin’s personal account of his 1831 voyage around the world investigating the geology, botany, and zoology of various lands.</dc:abstract>
+		<dc:description>
 			&lt;p&gt;In 1831, the twenty-two-year old &lt;a href="https://standardebooks.org/ebooks/charles-darwin"&gt;Charles Darwin&lt;/a&gt; embarked on the Royal Navy ship H.M.S. &lt;i&gt;Beagle&lt;/i&gt; as it set off on what was to be a five-year-long surveying expedition around South America and across the Pacific. Darwin was employed officially as a naturalist and geologist to assist in the survey, but unofficially as a companion to the captain, Robert Fitz Roy.&lt;/p&gt;
 			&lt;p&gt;Darwin was a keen and intelligent observer, and made a number of discoveries on the journey, including the observations at the Galapagos Archipelago which eventually led him to his theory of evolution (later outlined in &lt;i&gt;&lt;a href="https://standardebooks.org/ebooks/charles-darwin/the-origin-of-species"&gt;The Origin of Species&lt;/a&gt;&lt;/i&gt;). His voyage across the Pacific also led him to propose a now largely accepted theory of the formation of coral atolls.&lt;/p&gt;
 			&lt;p&gt;Darwin submitted his journal and notes as part of the official report of the expedition, but in 1839 he published a more readable account of his experiences in this book, initially titled &lt;i&gt;Journal of Researches Into the Natural History and Geology of the Countries Visited During the Voyage of H.M.S. Beagle Round the World Under the Command of Capt. Fitz Roy, R.N.&lt;/i&gt;. The book quickly became very popular, and the publisher had to release a second edition later the same year. The revised and much simpler title &lt;i&gt;The Voyage of the Beagle&lt;/i&gt; was only given to the work in 1905.&lt;/p&gt;
 			&lt;p&gt;Adding to the interest of Darwin’s detailed and thorough observations of nature and geology are his deeply critical remarks on the institution of slavery, which he witnessed during his time in Brazil. This of course was three decades before the Civil War in the United States which was fought over that issue.&lt;/p&gt;
-		</meta>
+		</dc:description>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/944</dc:source>
 		<dc:source>https://archive.org/details/voyageofbeagle0029char</dc:source>
