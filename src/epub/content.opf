@@ -48,7 +48,7 @@
 		<meta property="authority" refines="#subject-5">LCSH</meta>
 		<meta property="term" refines="#subject-5">Unknown</meta>
 		<meta property="schema:genre">Nonfiction</meta>
-		<dc:abstract>Darwin’s personal account of his 1831 voyage around the world investigating the geology, botany, and zoology of various lands.</dc:abstract>
+		<meta property="schema:abstract">Darwin’s personal account of his 1831 voyage around the world investigating the geology, botany, and zoology of various lands.</meta>
 		<dc:description>
 			&lt;p&gt;In 1831, the twenty-two-year old &lt;a href="https://standardebooks.org/ebooks/charles-darwin"&gt;Charles Darwin&lt;/a&gt; embarked on the Royal Navy ship H.M.S. &lt;i&gt;Beagle&lt;/i&gt; as it set off on what was to be a five-year-long surveying expedition around South America and across the Pacific. Darwin was employed officially as a naturalist and geologist to assist in the survey, but unofficially as a companion to the captain, Robert Fitz Roy.&lt;/p&gt;
 			&lt;p&gt;Darwin was a keen and intelligent observer, and made a number of discoveries on the journey, including the observations at the Galapagos Archipelago which eventually led him to his theory of evolution (later outlined in &lt;i&gt;&lt;a href="https://standardebooks.org/ebooks/charles-darwin/the-origin-of-species"&gt;The Origin of Species&lt;/a&gt;&lt;/i&gt;). His voyage across the Pacific also led him to propose a now largely accepted theory of the formation of coral atolls.&lt;/p&gt;
